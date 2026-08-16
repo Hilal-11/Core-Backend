@@ -49,5 +49,5 @@ connectCloudinary()
 startTrashPurgeCron() // corn-jobs to delete perminently trashed notes after 30-days
 
 app.listen(PORT , () => {
-    console.log(`App is runnign at PORT: ${PORT}`)
+    console.log(`App is runnign at PORT: ${PORT} and its is local environment`)
 })
